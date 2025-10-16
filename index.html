@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="./assets/logos/logo_fb.jpg">
+  <link rel="icon" type="image/png" href="./assets/logos/logo_fb.svg">
   <link rel="stylesheet" href="./styles/global.style.css">
   <link rel="stylesheet" href="./styles/index.style.css">
   <title>Studio FB Fotografias</title>
@@ -11,11 +11,73 @@
 <body>
   <div id="app-container">
 
-    <header id="app-header"></header>
+    <header id="app-header">
+      <div id="app-header-image-container">
+        <img 
+          onclick="pageLoad('home')" 
+          src="./assets/logos/logo_fb_full.svg" 
+          alt="Logo studio fb Fotografias"
+        >
+        <span onclick="pageLoad('home')">Studio FB Fotografias</span>
+      </div>
+
+      <nav id="app-header-navbar">
+        <ul>
+          <li 
+            onclick="pageLoad('home')"
+            class="app-header-nabar-li"
+          >
+            <input type="radio" name="nav" id="home" checked>
+            <label for="home">Home</label>
+          </li>
+          
+          <li 
+            onclick="pageLoad('portfolio')"
+            class="app-header-nabar-li"
+          >
+            <input type="radio" name="nav" id="portfolio">
+            <label for="portfolio">Portfólio</label>
+          </li>
+
+          <li 
+            onclick="pageLoad('services')"
+            class="app-header-nabar-li"
+          >
+            <input type="radio" name="nav" id="services">
+            <label for="services">Serviços</label>  
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <main id="app-main"></main>
 
-    <footer id="app-footer"></header>
+    <footer id="app-footer">  
+      <ul>
+        <li class="app-footer-li">
+          <img src="./assets/icons/whatsApp.svg" alt="">
+          <a href="" target="_blank">
+            <span>(47) 0000-0000</span>
+          </a>
+        </li>
+
+        <li class="app-footer-li">
+          <img src="./assets/icons/mapMarker.svg" alt="">
+          <a href="https://maps.app.goo.gl/Q9nDdvZ39oJtsY7a6" target="_blank">
+            <span>Deodoro/141/Jaraguá do Sul/SC</span>
+          </a>
+        </li>
+        
+        <li class="app-footer-li">
+          <img src="./assets/icons/instagram.svg" alt="">
+          <a href="https://www.instagram.com/studiofbfotografias/" target="_blank">
+            <span>@studiofbfotografias<span>
+          </a>
+        </li>
+      </ul>
+
+      <span>© 2025 Studio FB Fotografias — Todos os direitos reservados</span>
+    </footer>
   </div>
 
   <script type="module" src="./scripts/app.init.js"></script>

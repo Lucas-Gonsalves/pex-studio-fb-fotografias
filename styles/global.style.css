@@ -38,18 +38,6 @@
   --main-700: #8c0a12; 
   --main-800: #5a090d;
 
-  --bp-xs: 480px;
-  --bp-sm: 640px;
-  --bp-md: 768px;
-  --bp-lg: 1024px;
-  --bp-xl: 1280px;
-
-  --media-xs: (min-width: var(--bp-xs));
-  --media-sm: (min-width: var(--bp-xs));
-  --media-md: (min-width: var(--bp-xs));
-  --media-lg: (min-width: var(--bp-xs));
-  --media-xl: (min-width: var(--bp-xs));
-
   --font-sans: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 }
@@ -63,7 +51,7 @@ body {
 }
 
 body, button, input, textarea, select {
-  color: var(--primary-100);
+  color: var(--primary-400);
 
   font-size: 1.4rem;
   font-weight: 400;
