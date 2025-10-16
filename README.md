@@ -1,57 +1,57 @@
 # 📸 Studio FB Fotografias
 
-Website institucional desenvolvido para o **Studio FB Fotografias**, uma empresa especializada em fotografia profissional.  
-O objetivo do site é apresentar a marca, seus serviços e permitir que os visitantes conheçam mais sobre o trabalho oferecido.
+Institutional website developed for **Studio FB Fotografias**, a company specialized in professional photography.  
+The goal of this website is to present the brand, its services, and allow visitors to learn more about the studio’s work.
 
 ---
 
-## 🧭 Visão Geral
+## 🧭 Overview
 
-O projeto foi criado com foco em **simplicidade, desempenho e design limpo**, oferecendo uma navegação fluida entre as seções principais do site:
+This project was created with a focus on **simplicity, performance, and a clean design**, providing smooth navigation across the main sections of the site:
 
-- **Home:** Apresentação da empresa e valores.  
-- **Portfólio:** Exposição de trabalhos realizados e estilos fotográficos.  
-- **Serviços:** Descrição detalhada dos serviços oferecidos.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5** – estrutura semântica e responsiva  
-- **CSS3 (Grid e Flexbox)** – layout moderno e adaptável  
-- **JavaScript (ES Modules)** – carregamento dinâmico de conteúdo  
-- **XMLHttpRequest** – requisições assíncronas para atualização de páginas
+- **Home:** Introduction to the company and its values.  
+- **Portfolio:** Display of previous work and photography styles.  
+- **Services:** Detailed description of the services offered.
 
 ---
 
-## ⚙️ Funcionalidades
+## 🛠️ Technologies Used
 
-- Sistema modular de carregamento de páginas com **contentLoad()**  
-- Navegação sem recarregar a página (SPA-like)  
-- Layout responsivo adaptado para dispositivos móveis  
-- Menu de navegação interativo com **radio buttons** estilizados e **:checked**  
-- Organização limpa e reutilizável dos estilos (CSS modular)
+- **HTML5** – semantic and responsive structure  
+- **CSS3 (Grid and Flexbox)** – modern and flexible layout system  
+- **JavaScript (ES Modules)** – dynamic content loading  
+- **XMLHttpRequest** – asynchronous requests for page updates
 
 ---
 
-## 🚀 Como Executar o Projeto
+## ⚙️ Features
 
-1. Clone o repositório:
+- Modular page loading system using **contentLoad()**  
+- Navigation without full page reloads (SPA-like experience)  
+- Responsive layout adapted for mobile devices  
+- Interactive navigation menu using **radio buttons** and **:checked** styling  
+- Clean, reusable, and modular CSS organization
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/SeuUsuario/studio-fb-fotografias.git
+   git clone https://github.com/Lucas-Gonsalves/pex-studio-fb-fotografias.git
    ```
 
-2. Acesse o diretório:
+2. Navigate to the project directory:
    ```bash
    cd studio-fb-fotografias
    ```
 
-3. Execute com **Live Server** (ou outro servidor local):
+3. Start a local server (for example, using Live Server or Serve):
    ```bash
    npx serve .
    ```
 
-4. Acesse no navegador:
+4. Open the project in your browser:
    ```
    http://localhost:3000
    ```
