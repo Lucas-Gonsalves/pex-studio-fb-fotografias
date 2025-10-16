@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary-100) var(--secondary-700);
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --primary-100: #fefefe;
+  --primary-200: #f9fafb;
+  --primary-300: #f3f4f6;
+  --primary-400: #e5e7eb;
+  --primary-500: #d1d5db;
+  --primary-600: #9ca3af;
+  --primary-700: #6b7280;
+  --primary-800: #4b5563;
+
+  --secondary-100: #2a2a2a;
+  --secondary-200: #242424;
+  --secondary-300: #1f1f1f;
+  --secondary-400: #1a1a1a;
+  --secondary-500: #151515;
+  --secondary-600: #121212;
+  --secondary-700: #0e0e0e;
+  --secondary-800: #0b0b0b;
+
+  --main-100: #ffb3b6; 
+  --main-200: #ff6b73;
+  --main-300: #ff343e;
+  --main-400: #f2151f; 
+  --main-500: #e50914; 
+  --main-600: #b20710; 
+  --main-700: #8c0a12; 
+  --main-800: #5a090d;
+
+  --bp-xs: 480px;
+  --bp-sm: 640px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+
+  --media-xs: (min-width: var(--bp-xs));
+  --media-sm: (min-width: var(--bp-xs));
+  --media-md: (min-width: var(--bp-xs));
+  --media-lg: (min-width: var(--bp-xs));
+  --media-xl: (min-width: var(--bp-xs));
+
+  --font-sans: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+body {
+  background: var(--secondary-600);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body, button, input, textarea, select {
+  color: var(--primary-100);
+
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: var(--font-sans);
+}
+
+img, svg {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
