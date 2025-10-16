@@ -43,7 +43,7 @@ This project was created with a focus on **simplicity, performance, and a clean 
 
 2. Navigate to the project directory:
    ```bash
-   cd studio-fb-fotografias
+   cd pex-studio-fb-fotografias
    ```
 
 3. Start a local server (for example, using Live Server or Serve):
