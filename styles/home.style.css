@@ -1,0 +1,215 @@
+#home-main-section-banner {
+  position: relative;
+}
+
+#home-main-section-banner > img {
+  width: 100%;
+  height: 20rem;
+
+  filter: opacity(.5);
+  object-fit: cover;
+}
+
+#home-main-section-banner-content {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: .6rem;
+  text-align: center;
+}
+
+#home-main-section-banner-content > h1 {
+  min-width: max-content;
+  font-size: 18px;
+}
+
+
+#home-main-section-banner-content > button {
+  padding: .6rem 1rem;
+
+  background: var(--main-800);
+
+  border-radius: .8rem;
+  font-weight: 500;
+  letter-spacing: .13rem;
+
+  border: none;
+  cursor: pointer;
+
+  filter: opacity(.85);
+  transition: .2s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home-main-section-banner-content > button:hover {
+  transition: .2s ease;
+  filter: opacity(1);
+  background: var(--main-700);
+}
+
+
+#home-main-section-about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+
+  margin: auto;
+  padding: 2.4rem 2.2rem;
+}
+
+#home-main-section-about-us > h2 {
+  max-width: fit-content;
+  font-weight: 500;
+
+  margin: auto;
+}
+
+#home-about-us-content {
+  max-width: 40rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 2.4rem;
+}
+
+.home-about-us-content-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.home-about-us-content-item > img {
+  width: 100%;
+
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.home-about-us-content-item > p {
+  width: 100%;
+  text-align: justify;
+}
+
+@media (min-width: 480px) {
+  #home-main-section-banner > img {
+    height: 24rem;
+  }
+  
+  #home-main-section-banner-content > h1 {
+    font-size: 2.6rem;
+  }
+
+  #home-main-section-banner-content > p {
+    font-size: 1.6rem;
+  }
+
+  #home-main-section-banner-content > button {
+    padding: .8rem 1.2rem;
+  }
+
+  .home-about-us-content-item > p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 640px) {
+  #home-main-section-banner-content {
+    gap: 1.2rem;  
+  }
+
+  #home-main-section-about-us {
+    align-items: start;
+  }
+
+  #home-main-section-banner > img {
+    height: 34rem;
+  }
+  
+  #home-main-section-banner-content > button {
+    padding: 1rem 1.6rem;
+    font-size: 1.6rem;
+  }
+
+  #home-main-section-about-us {
+    max-width: 130rem;
+    padding: 2.8rem;
+    gap: 2.8rem;
+  }
+
+  #home-main-section-about-us > h2 {
+    margin: 0;
+  }
+
+  #home-about-us-content {
+    max-width: 100%;
+  }
+
+  .home-about-us-content-item {
+    flex-direction: row;
+    gap: 1.8rem;
+  }
+
+  .home-about-us-content-item > p {
+    text-align: start;
+  }
+
+  
+  #home-about-us-content-item-last {
+    flex-direction: row-reverse;
+  }
+
+  #home-about-us-content-item-last > p {
+    text-align: end;
+  }
+
+
+  .home-about-us-content-item > img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+
+@media (min-width: 1024px) {
+  #home-main-section-banner > img {
+    height: 48rem;
+  }
+
+  #home-main-section-about-us {
+    max-width: 130rem;
+    padding: 4.8rem;
+    gap: 4.8rem;
+  }
+
+  #home-main-section-about-us > h2 {
+    font-size: 2.4rem;
+  }
+
+  #home-about-us-content {
+    gap: 4.8rem;
+  }
+
+  .home-about-us-content-item {
+    gap: 2.8rem;
+  }
+
+  .home-about-us-content-item > p {
+    font-size: 1.8rem;
+  }
+}
