@@ -42,14 +42,6 @@
   color: var(--primary-400);
 
   display: none;
-  cursor: pointer;
-
-  transition: .2s ease;
-}
-
-#app-header-image-container > span:hover {
-  filter: brightness(.9);
-  transition: .2s ease;
 }
 
 #app-header-image-container > img {
@@ -57,14 +49,6 @@
   height: 5rem;
 
   border-radius: 100%;
-  cursor: pointer;
-
-  transition: .2s ease;
-} 
-
-#app-header-image-container > img:hover {
-  filter: brightness(.9);
-  transition: .2s ease;
 } 
 
 #app-header-navbar > ul {
